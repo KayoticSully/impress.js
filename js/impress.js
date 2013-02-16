@@ -679,6 +679,13 @@
         
         // KEYBOARD NAVIGATION HANDLERS
         
+        /*
+         *   FOR NOW THESE ARE COMMENTED OUT AS THEY ARE NOT
+         *   IMMEDIATELY NEEDED FOR MY PROJECT.  I WANT TO
+         *   BUILD IN TOGGLES AND CUSTOM CALLBACKS WHEN
+         *   I HAVE THE TIME.
+         *
+        
         // Prevent default keydown action when one of supported key is pressed.
         document.addEventListener("keydown", function ( event ) {
             if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40) ) {
@@ -780,7 +787,7 @@
                 }
             }
         }, false);
-        
+        */
         // rescale presentation when window is resized
         window.addEventListener("resize", throttle(function () {
             // force going to active step again, to trigger rescaling
